@@ -966,7 +966,7 @@ $objLicenseType = @{
 
 #connect to both services
 Connect-ExchangeOnline
-Connect-MsolService
+Connect-MsolService  
 
 $objMailboxes = Get-EXOMailbox | Select-Object UserPrincipalName, DisplayName, EmailAddresses
 
